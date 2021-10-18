@@ -1,71 +1,16 @@
     body, html{
-            height:100%;
-            background-image:url(../img/rose.jpg);
-            display:flex;
-            flex-direction:column;
-           
-            justify-content: space-between;
-         
-
+            background-image:url(../img/darkcomp.jpg);
+            height: 100vh;
+            background-position: center center;      
+            background-repeat: no-repeat;      
+             background-attachment: fixed;      
+          background-size: cover;  
         }
         body{
             font-family:'Roboto', sans-serif;
             color:white;
         }
-        
-        
-        .header{
-            max-width:1170px;
-            padding-left:15px;
-            padding-right:15px;
-            margin:0 auto; 
-            display:flex;
-            justify-content:space-between;
-            align-items:center;
-        }
   
-.main{             
-    height:100%;
-    background-image:url(../img/darkcomp.jpg);
-    display:flex;
-    flex-direction:column;
-   
-    justify-content: space-between;    }
-    .nav-item{
-        margin-left:15px;
-    }
-    
-    .nav-link{
-        color: #F0EBD8;
-        text-decoration: none;
-        border-bottom:1px  solid transparent;
-        transition:0.3s;
-    }
-    .nav{
-        list-style:none;
-        margin:0;
-        padding:0;
-        text-align:center;
-    }
-    .nav li{
-        display:inline;
-    }
-    .nav a{
-        display:inline-block;
-        padding:10px;
-    }
-
-
-
-.about-me-container {
-    display: flex;
-  }
-  
-  .about-me-text-container {
-    margin-right: var(--spacing-3);
-    padding-bottom: 150px;
-   
-}
   
 .text{
     padding-right:20px;
@@ -73,39 +18,7 @@
     color:#F0EBD8;
     text-indent: 25px;
 }
-.Tima img{
-    border-radius: 50%;
-    align-items: left;
-   top:10px;
-   flex-shrink: 0;
-   color:#F0EBD8;
-}
 
-
-.mb-4{
-    transition: background-color .3s linear;
-    transition: border-radius .3s linear;
-  }
-
-
-    .lead{
-    font-weight:40px;
-    font-size: 30px;
-    color:#1D2D44;
-    padding-left:100px;
-    padding-right:90px;
-    padding-bottom:100px;
-    text-indent: 25px;
-
-}
-
-.row{
-    padding-left:200px;
-    padding-right:100px;
-    }
-  
-
-    
       
 footer{
   
@@ -119,44 +32,57 @@ footer h3{
     color:#1D2D44;
 }
 
-    #container{
 
-        margin: 0;
-        display: block;
-        float: left;
-        width: 100vw;
-        height: 100vh;
-        font-size: 30px;
 
-      }
-
-    #view-button{
-        width: 380px;
-        height: 50px;
-        font-size: 24px;
-        border: none;
-        display: block;
-        background-color: #0D1321;
-        margin: 0 auto;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        cursor: pointer;
-        font-family: 'Nunito';
-      }
-      
-      #close-button{
-        width: 380px;
-        height: 50px;
-        font-size: 24px;
-        border: none;
-        display: none;
-        background-color: #1D2D44;
-        margin: 0 auto;
-        margin-top: 20px;
-        cursor: pointer;
-        font-family: 'Nunito';
-      }
-      #info{
-display: none;
-
+div {
+    padding: 5px;
+    
+  }
+  
+  .img2 {
+    float: left;
+  }
+  
+  .clearfix::after {
+  
+    clear: both;
+    display: table;
+  }
+  .Tima img{
+      border-radius: 50%;
+      align-items: left;
+     top:10px;
+     flex-shrink: 0;
+     color:#F0EBD8;
+  }
+      .lead{
+      font-weight:40px;
+      font-size: 30px;
+      color:#1D2D44;
+      padding-left:100px;
+      padding-right:90px;
+      padding-bottom:100px;
+      text-indent: 25px;
+  
+  }
+  .about-me-container {
+      display: flex;
+    }
+    
+    .about-me-text-container {
+      margin-right: var(--spacing-3);
+      padding-bottom: 150px;
+     
+  }
+  
+  .mb-4{
+      transition: background-color .3s linear;
+      transition: border-radius .3s linear;
+    }
+  
+  
+  
+  .row{
+      padding-left:200px;
+      padding-right:100px;
       }
