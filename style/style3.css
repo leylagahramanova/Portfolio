@@ -1,3 +1,11 @@
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+*{
+	padding:0;
+	margin:0;
+}
+
+    
     body, html{
             background-image:url(../img/darkcomp.jpg);
             height: 100vh;
@@ -59,24 +67,17 @@ div {
       font-weight:40px;
       font-size: 30px;
       color:#F0EBD8;
-   padding-left:100px;
+   padding-left:250px;
   
   }
 
 
 
-  .about-me-container {
-    display: flex;
-  }
-  
-  .about-me-text-container {
-    margin-right: var(--spacing-3);
-    padding-bottom: 150px;
-   
-  }
   .row{
     padding-right:100px;
-    padding-left:100px;
+    padding-left:200px;
+    align-items: center;
+ 
   }
 
   .a:link{
@@ -95,4 +96,11 @@ div {
     color:#F0EBD8;
     list-style: none;
     text-decoration:none;
+}
+
+
+.about-me-text-container {
+
+  padding-bottom: 400px;
+ 
 }
